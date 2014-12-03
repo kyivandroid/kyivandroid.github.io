@@ -1,0 +1,19 @@
+body {
+    background: repeating-linear-gradient(
+     90deg,
+     #33B5E5, #33B5E5 20%,
+     #AA66CC 20%, #AA66CC 40%,
+     #99CC00 40%, #99CC00 60%,
+     #FFBB33 60%, #FFBB33 80%,
+     #FF4444 80%, #FF4444 100%);
+    background-size: cover;
+}
+
+img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
